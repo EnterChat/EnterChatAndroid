@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">EnterChatAndroid</string>
+    <!-- Navigation Drawer Items -->
+    <string name="coworkers_list">Список сотрудников</string>
+    <!-- -->
+    <string name="chats_category">Чаты</string>
+    <string name="common_chat">Общий чат</string>
+    <string name="personal_chat">Личные чаты</string>
+    <!-- -->
+    <string name="notes">Заметки</string>
+    <string name="files">Файлы</string>
+    <string name="settings">Настройки</string>
+    <!-- Place Holders-->
+    <string name="nameview_pl">Иван Иванов</string>
+    <string name="emailview_pl">example@email.com</string>
 </resources>

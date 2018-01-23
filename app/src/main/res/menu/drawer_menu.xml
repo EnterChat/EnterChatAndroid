@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group
+    android:checkableBehavior="single">
+    <item
+        android:id="@+id/coworkers_list_item"
+        android:title="@string/coworkers_list"
+        android:checkable="true"
+        android:icon="@drawable/ic_coworkers_list">
+    </item>
+    <item
+        android:title="@string/chats_category">
+        <menu>
+            <item
+                android:id="@+id/common_chat_item"
+                android:title="@string/common_chat"
+                android:checkable="true"
+                android:icon="@drawable/ic_common_chat">
+            </item>
+            <item
+                android:id="@+id/personal_chat_item"
+                android:title="@string/personal_chat"
+                android:checkable="true"
+                android:icon="@drawable/ic_personal_chat">
+            </item>
+        </menu>
+    </item>
+</group>
+    <group
+        android:id="@+id/last"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/notes_item"
+            android:title="@string/notes"
+            android:icon="@drawable/ic_notes">
+        </item>
+        <item
+            android:id="@+id/files_item"
+            android:title="@string/files"
+            android:icon="@drawable/ic_files">
+        </item>
+        <item
+            android:id="@+id/settings_item"
+            android:title="@string/settings"
+            android:icon="@drawable/ic_settings"
+            android:checkable="false">
+        </item>
+    </group>
+</menu>
